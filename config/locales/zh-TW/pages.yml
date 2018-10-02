@@ -1,5 +1,9 @@
 zh-TW:
   pages:
+    conditions:
+      title: 使用條款及條件
+      subtitle: 關於開放政府門戶網站個人數據使用，隱私和保護條件的法律聲明
+      description: 使用條件，隱私和個人數據保護的資訊頁面。
     general_terms: 條款及條件
     help:
       title: "%{org} 是公民參與的平台"
@@ -62,6 +66,36 @@ zh-TW:
           如果您是程序員，您可以在 [CONSUL app](https://github.com/consul/consul 'consul github')查看原始碼，並幫助我們改進它。
       titles:
         how_to_use: 在您本地政府中使用它
+    privacy:
+      title: 隱私政策
+      subtitle: 有關數據隱私的資訊
+      info_items:
+        - 
+          text: 通過開放政府門戶網站提供的資訊進行導航是匿名的。
+        - 
+          text: 要使用開放政府門戶網站中包含的服務，用戶必須根據每種登記類型中的特定資訊登記並預先提供個人數據。
+        - 
+          text: '所提供的數據將由市議會根據以下文件的描述進行整合和處理：'
+        - 
+          subitems:
+            - 
+              field: '文件名稱：'
+              description: 該文件的名稱
+            - 
+              field: '該文件的目的：'
+              description: 管理參與過程是為了控制參與其中的人員的資格，並對公民參與過程產生的結果只進行數據和統計重新計算。
+            - 
+              field: '負責該文件的機構：'
+              description: 負責該文件的機構
+        - 
+          text: 有關方可以在負責機構指示之前行使獲取、糾正、取消和反對的權利，所有這些權利都是根據12月13日第15/1999號組織法第5條關於個人數據保護。
+        - 
+          text: 作為一般原則，本網站不會共享或披露所獲得的信息，除非經用戶授權，或根據司法機關、檢察官辦公室或司法警察要求提供信息，或受 12月13日第15/1999號組織法第11條關於個人數據保護的管制。
+    accessibility:
+      title: 可訪問性
+      keyboard_shortcuts:
+        navigation_table:
+          description: 為了提高以可訪問性的方式瀏覽該網站，已經編寫了一組快捷鍵，以進入該網站組織的一般感興趣的主要部分。
     titles:
       accessibility: 無障礙功能
       conditions: 使用條款
