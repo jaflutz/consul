@@ -106,6 +106,46 @@ zh-TW:
         title: 鍵盤快捷鍵
         navigation_table:
           description: 為了提高以可訪問性的方式瀏覽該網站，已經編寫了一組快捷鍵，以進入該網站組織的一般感興趣的主要部分。
+          caption: 導航菜單的鍵盤快捷鍵
+          key_header: 鍵
+          page_header: 頁
+          rows:
+            - 
+              key_column: 0
+              page_column: 主頁
+            - 
+              key_column: 1
+              page_column: 辯論
+            - 
+              key_column: 2
+              page_column: 建議
+            - 
+              key_column: 3
+              page_column: 投票
+            - 
+              key_column: 4
+              page_column: 參與性預算
+            - 
+              key_column: 5
+              page_column: 立法進程
+        browser_table:
+          description: '根據所使用的操作系統和瀏覽器，組合鍵如下所示：'
+          caption: 組合鍵是基於所使用的操作系統和瀏覽器
+          browser_header: 瀏覽器
+          key_header: 組合鍵
+          rows:
+            - 
+              browser_column: Explorer
+              key_column: ALT + 快捷鍵，然後輸入
+            - 
+              browser_column: Firefox
+              key_column: ALT + CAPS + 快捷鍵
+            - 
+              browser_column: Chrome
+              key_column: ALT + 快捷鍵 (CTRL + ALT + MAC快捷鍵)
+            - 
+              browser_column: Safari
+            - 
     titles:
       accessibility: 無障礙功能
       conditions: 使用條款
