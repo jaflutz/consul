@@ -145,7 +145,15 @@ zh-TW:
               key_column: ALT + 快捷鍵 (CTRL + ALT + MAC快捷鍵)
             - 
               browser_column: Safari
+              key_column: ALT + 快捷鍵 (MAC機上的 CMD + 快捷鍵)
             - 
+              browser_column: Opera
+              key_column: CAPS + ESC + 快捷鍵
+      textsize:
+        title: 字體大小
+      compatibility:
+        title: 兼容標準和視覺設計
+        description_html: '本網站的所有頁面均符合<strong>輔助功能指南</strong>或由工作組建立的無障礙設計的一般原則<abbr title = "Web Accessibility Initiative" lang = "en"> ，WAI </ abbr>屬於W3C。'
     titles:
       accessibility: 無障礙功能
       conditions: 使用條款
