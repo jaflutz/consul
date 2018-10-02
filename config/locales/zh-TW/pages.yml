@@ -136,13 +136,13 @@ zh-TW:
           rows:
             - 
               browser_column: Explorer
-              key_column: ALT + 快捷鍵，然後輸入
+              key_column: ALT + 快捷鍵，然後輸入鍵
             - 
               browser_column: Firefox
               key_column: ALT + CAPS + 快捷鍵
             - 
               browser_column: Chrome
-              key_column: ALT + 快捷鍵 (CTRL + ALT + MAC快捷鍵)
+              key_column: ALT + 快捷鍵 (MAC機上的 CTRL + ALT + 快捷鍵)
             - 
               browser_column: Safari
               key_column: ALT + 快捷鍵 (MAC機上的 CMD + 快捷鍵)
@@ -151,6 +151,35 @@ zh-TW:
               key_column: CAPS + ESC + 快捷鍵
       textsize:
         title: 字體大小
+        browser_settings_table:
+          description: 該網站的可訪問性設計允許用戶選擇適合他的字體大小。 可以根據所使用的瀏覽器以不同方式執行此操作。
+          browser_header: 瀏覽器
+          action_header: 要採取的操作
+          rows:
+            - 
+              browser_column: Explorer
+              action_column: 查看 > 字體大小
+            - 
+              browser_column: Firefox
+              action_column: 查看 > 大小
+            - 
+              browser_column: Chrome
+              action_column: 設置 (圖標) > 選項 > 高級 > 網頁內容 > 字體大小
+            - 
+              browser_column: Safari
+              action_column: 查看 > 放大/縮小
+            - 
+              browser_column: Opera
+              action_column: 查看 > 比例
+        browser_shortcuts_table:
+          description: '另一種修改字體大小的方法是使用瀏覽器中定義的鍵盤快捷鍵，尤其是組合鍵：'
+          rows:
+            - 
+              shortcut_column: CTRL 和 + (MAC機上的 CMD 和 +)
+              description_column: 增加字體大小
+            - 
+              shortcut_column: CTRL 和 - (MAC機上的 CMD 和 -)
+              description_column: 減少字體大小
       compatibility:
         title: 兼容標準和視覺設計
         description_html: '本網站的所有頁面均符合<strong>輔助功能指南</strong>或由工作組建立的無障礙設計的一般原則<abbr title = "Web Accessibility Initiative" lang = "en"> ，WAI </ abbr>屬於W3C。'
