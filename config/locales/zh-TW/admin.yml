@@ -370,6 +370,7 @@ zh-TW:
           enabled: 啟用
           process: 進程
           debate_phase: 辯論階段
+          allegations_phase: 評論階段
           proposals_phase: 建議階段
           start: 開始
           end: 結束
@@ -655,8 +656,10 @@ zh-TW:
         empty_notifications: 沒有要顯示的通知
       new:
         section_title: 新通知
+        submit_button: 創建通知
       edit:
         section_title: 編輯通知
+        submit_button: 更新通知
       show:
         section_title: 通知預覽
         send: 發送通知
@@ -1299,6 +1302,9 @@ zh-TW:
           name: 名稱
           names:
             top_links: 熱門鏈接
+            footer: 頁尾
+            subnavigation_left: 主導航左
+            subnavigation_right: 主導航右
       images:
         index:
           title: 自訂圖像
@@ -1370,3 +1376,6 @@ zh-TW:
         submit_header: 儲存頁首
         card_title: 編輯卡
         submit_card: 儲存卡
+    translations:
+      remove_language: 刪除語言
+      add_language: 添加語言
