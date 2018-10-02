@@ -1297,6 +1297,8 @@ zh-TW:
         content_block:
           body: 內容
           name: 名稱
+          names:
+            top_links: 熱門鏈接
       images:
         index:
           title: 自訂圖像
