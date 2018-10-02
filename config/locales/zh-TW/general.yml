@@ -452,6 +452,9 @@ zh-TW:
       geozone_restricted: "地區"
       geozone_info: "參與人口普查的人可以： "
       already_answer: "您已參與此投票"
+      not_logged_in: "您必須登錄或登記才能參與"
+      unverified: "您必須核實您的帳戶才能參與"
+      cant_answer: "此投票在您的地理區域上不可用"
       section_header:
         icon_alt: 投票圖示
         title: 投票中
