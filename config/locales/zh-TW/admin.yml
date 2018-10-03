@@ -1343,11 +1343,10 @@ zh-TW:
         page:
           created_at: 創建於
           status: 狀態
-          title: 標題
           updated_at: 更新於
           status_draft: 草稿
           status_published: 發表
-          locale: 語言
+          title: 標題
     homepage:
       title: 主頁
       description: 活動模組以與此處相同的順序在主頁中顯示。
