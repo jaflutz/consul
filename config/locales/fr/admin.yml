@@ -1337,11 +1337,10 @@ fr:
         page:
           created_at: Créé le
           status: Statut
-          title: Titre
           updated_at: Mis-à-jour le
           status_draft: Brouillon
           status_published: Publié
-          locale: Langue
+          title: Titre
     homepage:
       title: Page d’accueil
       description: Les modules actifs apparaissent dans la page d’accueil dans le même ordre, comme en l’espèce.
