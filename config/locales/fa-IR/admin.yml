@@ -1166,11 +1166,10 @@ fa:
         page:
           created_at: "ایجاد شده در\n"
           status: وضعیت ها
-          title: عنوان
           updated_at: "ایجاد شده در\n"
           status_draft: ' پیش نویس'
           status_published: منتشر شده
-          locale: زبان
+          title: عنوان
     homepage:
       title: صفحه اصلی
       description: ماژول های فعال در صفحه اصلی به ترتیب در اینجا نمایش داده می شوند.
