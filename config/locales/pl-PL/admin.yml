@@ -1346,11 +1346,10 @@ pl:
         page:
           created_at: Utworzony w
           status: Status
-          title: Tytuł
           updated_at: Aktualizacja w
           status_draft: Projekt
           status_published: Opublikowany
-          locale: Język
+          title: Tytuł
     homepage:
       title: Strona główna
       description: Aktywne moduły pojawiają się na stronie głównej w tej samej kolejności co tutaj.
