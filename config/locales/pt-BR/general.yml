@@ -469,6 +469,8 @@ pt-BR:
       geozone_restricted: "Distritos"
       geozone_info: "Podem participar as pessoas registradas em: "
       already_answer: "Já participou desta votação"
+      not_logged_in: "Você deve entrar ou se cadastrar para participar"
+      unverified: "Você deve verificar sua conta para participar"
       section_header:
         icon_alt: Ícone de votação
         title: Votação
