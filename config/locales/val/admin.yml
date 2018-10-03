@@ -1303,11 +1303,10 @@ val:
         page:
           created_at: Creada
           status: Estat
-          title: Títol
           updated_at: Actualitzada el
           status_draft: Esborrany
           status_published: Publicada
-          locale: Idioma
+          title: Títol
     homepage:
       title: Pàgina principal
       description: Els moduls actius apareixeran en la pàgina principal en el mateix ordre que ací.
