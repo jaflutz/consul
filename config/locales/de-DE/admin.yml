@@ -1333,11 +1333,10 @@ de:
         page:
           created_at: Erstellt am
           status: Status
-          title: Titel
           updated_at: Letzte Aktualisierung
           status_draft: Entwurf
           status_published: Veröffentlicht
-          locale: Sprache
+          title: Titel
     homepage:
       title: Homepage
       description: Die aktiven Module erscheinen auf der Startseite in derselben Reihenfolge wie hier.
