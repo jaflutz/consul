@@ -1112,8 +1112,7 @@ es-CL:
         page:
           created_at: Creada
           status: Estado
-          title: Título
           updated_at: Última actualización
           status_draft: Borrador
           status_published: Publicada
-          locale: Idioma
+          title: Título
