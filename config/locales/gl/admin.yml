@@ -1349,11 +1349,10 @@ gl:
         page:
           created_at: Creada
           status: Estado
-          title: Título
           updated_at: Última actualización
           status_draft: Bosquexo
           status_published: Publicada
-          locale: Idioma
+          title: Título
     homepage:
       title: Páxina principal
       description: Os módulos activos aparecerán na páxina principal na mesma orde que aquí.
