@@ -1349,11 +1349,10 @@ pt-BR:
         page:
           created_at: Criado em
           status: Status
-          title: Título
           updated_at: Atualizado em
           status_draft: Rascunho
           status_published: Publicado
-          locale: Idioma
+          title: Título
     homepage:
       title: Página inicial
       description: Os módulos ativos aparecem na página inical na mesma ordem que aqui.
