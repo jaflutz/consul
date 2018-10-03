@@ -1340,11 +1340,10 @@ it:
         page:
           created_at: Creata al
           status: Status
-          title: Titolo
           updated_at: Aggiornata al
           status_draft: Bozza
           status_published: Pubblicato
-          locale: Lingua
+          title: Titolo
     homepage:
       title: Homepage
       description: I moduli attivi vengono visualizzati nella homepage nello stesso ordine qui riportato.
