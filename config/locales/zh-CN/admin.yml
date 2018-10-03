@@ -1340,11 +1340,10 @@ zh-CN:
         page:
           created_at: 创建于
           status: 状态
-          title: 标题
           updated_at: 更新于
           status_draft: 起草
           status_published: 已发表
-          locale: 语言
+          title: 标题
     homepage:
       title: 主页
       description: 有效模块以与此处相同的顺序显示在主页中。
