@@ -1333,11 +1333,10 @@ sv:
         page:
           created_at: Skapad
           status: Status
-          title: Titel
           updated_at: Uppdaterad
           status_draft: Utkast
           status_published: Publicerad
-          locale: Språk
+          title: Titel
     homepage:
       title: Startsida
       description: De aktiva modulerna visas på startsidan i samma ordning som här.
