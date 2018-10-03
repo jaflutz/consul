@@ -1188,11 +1188,10 @@ es:
         page:
           created_at: Creada
           status: Estado
-          title: Título
           updated_at: Última actualización
           status_draft: Borrador
           status_published: Publicada
-          locale: Idioma
+          title: Título
     homepage:
       description: Los módulos activos aparecerán en la homepage en el mismo orden que aquí.
       header_title: Encabezado
