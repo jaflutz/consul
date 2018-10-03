@@ -1216,11 +1216,10 @@ es-AR:
         page:
           created_at: Creada
           status: Estado
-          title: Título
           updated_at: Última actualización
           status_draft: Borrador
           status_published: Publicada
-          locale: Idioma
+          title: Título
     homepage:
       title: Página principal
       description: Los módulos activos aparecerán en la página principal en el mismo orden que aquí.
