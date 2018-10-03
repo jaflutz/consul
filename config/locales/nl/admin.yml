@@ -1346,11 +1346,10 @@ nl:
         page:
           created_at: Aangemaakt op
           status: Status
-          title: Titel
           updated_at: Bewerkt op
           status_draft: Concept
           status_published: Gepubliceerd
-          locale: Taal
+          title: Titel
     homepage:
       title: Homepage
       description: De actieve modules worden weergegeven op de homepage in dezelfde volgorde als hier.
