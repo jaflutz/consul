@@ -471,6 +471,7 @@ pt-BR:
       already_answer: "Já participou desta votação"
       not_logged_in: "Você deve entrar ou se cadastrar para participar"
       unverified: "Você deve verificar sua conta para participar"
+      cant_answer: "Esta enquete não está disponível para sua zona"
       section_header:
         icon_alt: Ícone de votação
         title: Votação
