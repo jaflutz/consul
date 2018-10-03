@@ -1349,11 +1349,10 @@ sq:
         page:
           created_at: Krijuar në
           status: Statusi
-          title: Titull
           updated_at: Përditësuar në
           status_draft: Drafti
           status_published: Publikuar
-          locale: Gjuha
+          title: Titull
     homepage:
       title: Kryefaqja
       description: Modulet aktive shfaqen në faqen kryesore në të njëjtën mënyrë si këtu.
