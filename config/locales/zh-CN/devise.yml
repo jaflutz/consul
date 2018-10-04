@@ -36,3 +36,17 @@ zh-CN:
       send_paranoid_instructions: "如果您的电子邮件在我们的数据库中，几分钟后，您将收到一个链接来重设密码。"
       updated: "您的密码已成功更改。验证成功。"
       updated_not_active: "您的密码已成功更改。"
+    registrations:
+      destroyed: "再见！您的账号已取消。我们希望很快会再见到您。"
+      signed_up: "欢迎！您已通过验证。"
+      signed_up_but_inactive: "注册成功，但是您无法登录，因为您的账号还未被激活。"
+      signed_up_but_locked: "注册成功，但是您无法登录，因为您的账号已经被锁了。"
+      signed_up_but_unconfirmed: "内含验证链接的信息已经发送给您。请点击此链接来激活您的账号。"
+      update_needs_confirmation: "您的账号已成功更新；但是，我们需要验证您的新电子邮箱地址。请查看您的电子邮件并点击链接来完成确认您的新电子邮箱地址。"
+      updated: "您的账号已成功更新。"
+    sessions:
+      signed_in: "您已成功登录。"
+      signed_out: "您已成功登出。"
+      already_signed_out: "您已成功登出。"
+    unlocks:
+      send_instructions: "几分钟后，您将收到一封电子邮件，内含解锁账号的说明。"
