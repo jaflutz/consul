@@ -21,3 +21,4 @@ zh-CN:
     errors:
       messages:
         in_between: 必须在%{min} 和%{max} 之间
+        wrong_content_type: 内容类型%{content_type} 与任何已接受的内容类型%{accepted_content_types} 都不匹配
