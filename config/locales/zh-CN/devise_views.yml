@@ -1,1 +1,10 @@
 zh-CN:
+  devise_views:
+    confirmations:
+      new:
+        email_label: 电子邮件
+        submit: 重新发送说明
+        title: 重新发送确认说明
+      show:
+        instructions_html: 通过电子邮件%{email} 确认账号
+        new_password_confirmation_label: 重复访问密码
