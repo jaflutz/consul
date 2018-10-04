@@ -50,3 +50,15 @@ zh-CN:
       already_signed_out: "您已成功登出。"
     unlocks:
       send_instructions: "几分钟后，您将收到一封电子邮件，内含解锁账号的说明。"
+      send_paranoid_instructions: "如果您有账号，几分钟后，您将收到一封电子邮件，内含解锁账号的说明。"
+      unlocked: "您的账号已解锁。请登录以继续。"
+  errors:
+    messages:
+      already_confirmed: "您已被核实；请尝试登录。"
+      confirmation_period_expired: "您需要在%{period} 内被核实；请提出重复请求。"
+      expired: "已过期；请提出重复请求。"
+      not_found: "未找到。"
+      not_locked: "未被锁。"
+      not_saved:
+        other: "%{count} 错误阻止了此%{resource} 被保存。请检查标记的字段来了解如何更正它们："
+      equal_to_current_password: "必须和当前密码不同。"
