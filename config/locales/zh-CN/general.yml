@@ -1,1 +1,8 @@
 zh-CN:
+  account:
+    show:
+      change_credentials_link: 更改我的身份验证资讯
+      email_on_comment_label: 当有人评论我的提议或辩论时，通过电子邮件通知我
+      email_on_comment_reply_label: 当有人回复我的评论时，通过电子邮件通知我
+      erase_account_link: 删除我的账号
+      finish_verification: 完成验证
