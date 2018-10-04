@@ -75,3 +75,51 @@ zh-CN:
     shared:
       links:
         login: 进入
+        new_confirmation: 尚未收到激活账号的说明吗？
+        new_password: 忘记密码？
+        new_unlock: 尚未收到解锁说明吗？
+        signin_with_provider: 用%{provider} 登录
+        signup: 没有账号？%{signup_link}
+        signup_link: 注册
+    unlocks:
+      new:
+        email_label: 电子邮件
+        submit: 重新发送解锁说明
+        title: 重新发送解锁说明
+    users:
+      registrations:
+        delete_form:
+          erase_reason_label: 原因
+          info: 此操作将无法撤销。请确保这是您想要的。
+          info_reason: 如果您愿意，请给我们留下原因（可选填）
+          submit: 删除我的账号
+          title: 删除账号
+        edit:
+          current_password_label: 当前密码
+          edit: 编辑
+          email_label: 电子邮件
+          leave_blank: 如果您不希望修改请留空
+          need_current: 我们需要您的当前密码来确认更改
+          password_confirmation_label: 确认新密码
+          password_label: 新密码
+          update_submit: 更新
+          waiting_for: '等待确认：'
+        new:
+          cancel: 取消登录
+          email_label: 电子邮件
+          organization_signup: 您代表一个组织或集体吗？%{signup_link}
+          organization_signup_link: 在此注册
+          password_confirmation_label: 确认密码
+          password_label: 密码
+          redeemable_code: 通过电子邮件接收到的验证码（可选）
+          submit: 注册
+          terms: 通过注册，您接受%{terms}
+          terms_link: 使用条款和条件
+          terms_title: 通过注册，您接受此使用条款和条件
+          title: 注册
+          username_is_available: 可用用户名
+          username_is_not_available: 用户名已被使用
+          username_label: 用户名
+          username_note: 显示在您帖子边的名称
+        success:
+          back_to_index: 我明白；回到主页
