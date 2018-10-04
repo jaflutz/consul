@@ -1353,6 +1353,7 @@ gl:
           status_draft: Bosquexo
           status_published: Publicada
           title: Título
+          slug: URL
     homepage:
       title: Páxina principal
       description: Os módulos activos aparecerán na páxina principal na mesma orde que aquí.
