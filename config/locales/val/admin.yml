@@ -406,7 +406,6 @@ val:
           proposals: Propostes
       proposals:
         index:
-          title: Propostes
           back: Tornar
         form:
           custom_categories: Categoríes
