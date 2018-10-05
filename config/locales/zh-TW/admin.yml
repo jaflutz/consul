@@ -407,7 +407,6 @@ zh-TW:
           proposals: 建議
       proposals:
         index:
-          title: 建議
           back: 返回
         form:
           custom_categories: 類別
