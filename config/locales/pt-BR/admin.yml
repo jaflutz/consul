@@ -409,7 +409,6 @@ pt-BR:
           proposals: Propostas
       proposals:
         index:
-          title: Propostas
           back: Voltar
         form:
           custom_categories: Categorias
