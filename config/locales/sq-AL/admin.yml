@@ -409,7 +409,6 @@ sq:
           proposals: Propozime
       proposals:
         index:
-          title: Propozime
           back: Pas
         form:
           custom_categories: Kategoritë
