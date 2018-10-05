@@ -406,7 +406,6 @@ zh-CN:
           proposals: 提议
       proposals:
         index:
-          title: 提议
           back: 返回
         form:
           custom_categories: 类别
