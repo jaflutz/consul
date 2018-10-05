@@ -413,7 +413,6 @@ pl:
           proposals: Wnioski
       proposals:
         index:
-          title: Wnioski
           back: Wstecz
         form:
           custom_categories: Kategorie
