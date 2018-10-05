@@ -119,4 +119,3 @@ val:
       form:
         tags_label: "Categoríes"
       not_verified: "Per a votar propostes %{verify_account}."
-      closed: "Aquest procés esta tancat i ja no accepta vots."
