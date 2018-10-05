@@ -409,7 +409,6 @@ gl:
           proposals: Propostas
       proposals:
         index:
-          title: Propostas
           back: Volver
         form:
           custom_categories: Categorias
