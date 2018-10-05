@@ -116,4 +116,3 @@ zh-TW:
       form:
         tags_label: "類別"
       not_verified: "為投票建議%{verify_account}。"
-      closed: "此進程已關閉，無法接收投票。"
