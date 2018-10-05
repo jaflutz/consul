@@ -407,7 +407,6 @@ it:
           proposals: Proposte
       proposals:
         index:
-          title: Proposte
           back: Indietro
         form:
           custom_categories: Categorie
