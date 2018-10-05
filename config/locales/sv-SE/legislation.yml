@@ -119,4 +119,3 @@ sv:
       form:
         tags_label: "Kategorier"
       not_verified: "Rösta på förslag %{verify_account}."
-      closed: "Processen är stängd och går inte att rösta på."
