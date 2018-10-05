@@ -327,7 +327,6 @@ es-VE:
           proposals: Propuestas
       proposals:
         index:
-          title: Propuestas
           back: Volver
         form:
           custom_categories: Categorías
