@@ -327,7 +327,6 @@ id:
           proposals: Proposal
       proposals:
         index:
-          title: Proposal
           back: Kembali
         form:
           custom_categories: Kategori
