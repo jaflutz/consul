@@ -119,4 +119,3 @@ de:
       form:
         tags_label: "Kategorien"
       not_verified: "Für Wahlvorschläge %{verify_account}."
-      closed: "Dieser Prozess wurde abgeschlossen und kann nicht mehr bewertet werden."
