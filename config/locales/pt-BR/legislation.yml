@@ -120,4 +120,3 @@ pt-BR:
       form:
         tags_label: "Categorias"
       not_verified: "Para votar as propostas %{verify_account}."
-      closed: "Este processo foi fechado e não pode receber votos."
