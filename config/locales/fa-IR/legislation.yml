@@ -119,4 +119,3 @@ fa:
       form:
         tags_label: "دسته بندی ها\n"
       not_verified: "برای  رای به پیشنهادات%{verify_account}"
-      closed: "این فرآیند بسته شده است و نمی توانید رای بدهید."
