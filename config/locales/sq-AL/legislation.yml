@@ -120,4 +120,3 @@ sq:
       form:
         tags_label: "Kategoritë"
       not_verified: "Për propozimet e votimit %{verify_account}"
-      closed: "\nKy proces është mbyllur dhe nuk mund të marrë vota."
