@@ -343,7 +343,6 @@ fa:
           proposals: طرح های پیشنهادی
       proposals:
         index:
-          title: طرح های پیشنهادی
           back: برگشت
         form:
           custom_categories: "دسته بندی ها\n"
