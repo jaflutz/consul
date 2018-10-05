@@ -123,4 +123,3 @@ pl:
       form:
         tags_label: "Kategorie"
       not_verified: "W przypadku propozycji głosowania %{verify_account}."
-      closed: "Ten proces został zamknięty i nie może otrzymywać głosów."
