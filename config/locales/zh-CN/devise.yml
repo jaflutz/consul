@@ -42,7 +42,7 @@ zh-CN:
       signed_up_but_inactive: "注册成功，但是您无法登录，因为您的账号还未被激活。"
       signed_up_but_locked: "注册成功，但是您无法登录，因为您的账号已经被锁了。"
       signed_up_but_unconfirmed: "内含验证链接的信息已经发送给您。请点击此链接来激活您的账号。"
-      update_needs_confirmation: "您的账号已成功更新；但是，我们需要验证您的新电子邮箱地址。请查看您的电子邮件并点击链接来完成确认您的新电子邮箱地址。"
+      update_needs_confirmation: "您的账号已成功更新；但是，我们需要验证您的新电子邮件地址。请查看您的电子邮件并点击链接来完成确认您的新电子邮件地址。"
       updated: "您的账号已成功更新。"
     sessions:
       signed_in: "您已成功登录。"
@@ -55,10 +55,10 @@ zh-CN:
   errors:
     messages:
       already_confirmed: "您已被核实；请尝试登录。"
-      confirmation_period_expired: "您需要在%{period} 内被核实；请提出重复请求。"
-      expired: "已过期；请提出重复请求。"
+      confirmation_period_expired: "您需要在%{period} 内被核实；请发出重复请求。"
+      expired: "已过期；请发出重复请求。"
       not_found: "未找到。"
       not_locked: "未被锁。"
       not_saved:
-        other: "%{count} 错误阻止了此%{resource} 被保存。请检查标记的字段来了解如何更正它们："
+        other: "%{count} 个错误阻止了此%{resource} 被保存。请检查标记的字段来了解如何更正它们："
       equal_to_current_password: "必须和当前密码不同。"
