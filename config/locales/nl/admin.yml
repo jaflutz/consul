@@ -408,7 +408,6 @@ nl:
           proposals: Voorstellen
       proposals:
         index:
-          title: Voorstellen
           back: Terug
         form:
           custom_categories: Categorieën
