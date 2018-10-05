@@ -120,4 +120,3 @@ gl:
       form:
         tags_label: "Categorías"
       not_verified: "Para votares propostas, %{verify_account}."
-      closed: "Este proceso cerrouse e xa non se poden recoller votos."
