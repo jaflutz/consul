@@ -119,4 +119,3 @@ nl:
       form:
         tags_label: "Categorieen"
       not_verified: "Voor stemvoorstellen %{verify_account}."
-      closed: "Dit proces is gesloten en stemmen kan niet meer."
