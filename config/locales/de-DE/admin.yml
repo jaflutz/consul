@@ -408,7 +408,6 @@ de:
           proposals: Vorschläge
       proposals:
         index:
-          title: Vorschläge
           back: Zurück
         form:
           custom_categories: Kategorien
