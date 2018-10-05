@@ -408,7 +408,6 @@ sv:
           proposals: Förslag
       proposals:
         index:
-          title: Förslag
           back: Tillbaka
         form:
           custom_categories: Kategorier
