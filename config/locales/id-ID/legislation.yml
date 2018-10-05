@@ -109,4 +109,3 @@ id:
       form:
         tags_label: "Kategori"
       not_verified: "Untuk memilih proposal %{verify_account}."
-      closed: "Proses ini telah ditutup dan tidak dapat menerima suara."
