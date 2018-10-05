@@ -407,7 +407,6 @@ fr:
           proposals: Propositions
       proposals:
         index:
-          title: Propositions
           back: Retour
         form:
           custom_categories: Catégories
