@@ -57,5 +57,5 @@ ar:
       confirmation_period_expired: "يجب التحقق من صحتك داحل %{period}؛ يرجى تقديم طلب تكرار."
       expired: "انتهت صلاحيته; يرجى اعادة طلبك."
       not_found: "غير موجود."
-      not_locked: "لم يكن مؤمنا."
+      not_locked: "لم يكن مغلقا."
       equal_to_current_password: "يجب ان تكون كلمة المرور مختلفة عن الحالية."
