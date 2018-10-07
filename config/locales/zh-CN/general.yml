@@ -146,3 +146,31 @@ zh-CN:
       sign_in: 用Google登录
       sign_up: 用Google注册
       name: Google
+    twitter:
+      sign_in: 用Twitter登录
+      sign_up: 用Twitter注册
+      name: Twitter
+    info_sign_in: "登录用："
+    info_sign_up: "注册用："
+    or_fill: "或者填写以下表格："
+  proposals:
+    create:
+      form:
+        submit_button: 创建提议
+    edit:
+      editing: 编辑提议
+      form:
+        submit_button: 保存更改
+      show_link: 查看提议
+    retire_form:
+      title: 撤回提议
+      warning: "如果您撤回提议，它仍然能接受支持，但是它将从主列表中删除，而且所有用户都将看到一条信息，声明作者认为此提议不应再被支持"
+      retired_reason_label: 撤回提议的原因
+      retired_reason_blank: 选择一个选项
+      retired_explanation_label: 解释
+      retired_explanation_placeholder: 简短解释为什么您认为此提议不应该再接受更多的支持
+      submit_button: 撤回提议
+    retire_options:
+      duplicated: 重复
+      started: 已在进行中
+      unfeasible: 不可行
