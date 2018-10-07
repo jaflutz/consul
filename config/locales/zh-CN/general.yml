@@ -6,3 +6,9 @@ zh-CN:
       email_on_comment_reply_label: 当有人回复我的评论时，通过电子邮件通知我
       erase_account_link: 删除我的账号
       finish_verification: 完成验证
+      notifications: 通知
+      organization_name_label: 组织名称
+      organization_responsible_name_placeholder: 组织／集体的代表
+      personal: 个人资料
+      phone_number_label: 电话号码
+      public_activity_label: 将我的活动列表公开
