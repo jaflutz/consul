@@ -69,3 +69,54 @@ zh-CN:
       recommendation_four: 享受此空间和其中充满的声音。它也属于您。
       recommendation_one: 请不要用大写字母写辩论标题或整个句子。在因特网上，这被认为是在喊叫。没有人喜欢被吆喝。
       recommendation_three: 无情的批评很受欢迎。这是一个反思的空间。但是我们建议您保持优雅和智慧。这个世界会因为这些美德成为更美好的地方。
+      recommendation_two: 任何暗示非法行为，以及那些有意破坏辩论空间的辩论或评论都将被删除，其他一切都是允许的。
+      recommendations_title: 创建辩论的建议
+      start_new: 开始辩论
+    show:
+      author_deleted: 已删除的用户
+      comments:
+        zero: 没有评论
+        other: "%{count} 个评论"
+      comments_title: 评论
+      edit_debate_link: 编辑
+      flag: 此辩论已被几个用户标记为不恰当。
+      login_to_comment: 您必须%{signin} 或者%{signup} 才可以留下评论。
+      share: 共用
+      author: 作者
+    update:
+      form:
+        submit_button: 保存更改
+  errors:
+    messages:
+      user_not_found: 未找到用户
+      invalid_date_range: "无效日期范围"
+  form:
+    accept_terms: 我同意%{policy} 和%{conditions}。
+    accept_terms_title: 我同意隐私政策和使用条款及条件
+    conditions: 使用条款及条件
+    debate: 辩论
+    direct_message: 私人信息
+    error: 错误
+    errors: 错误
+    not_saved_html: "阻止%{resource} 被保存。<br>请检查标记的字段来了解如何更正它们："
+    policy: 隐私政策
+    proposal: 提议
+    proposal_notification: "通知"
+    spending_proposal: 支出提议
+    budget/investment: 投资
+    budget/heading: 预算标题
+    poll/shift: 轮班
+    poll/question/answer: 答案
+    user: 帐户
+    verification/sms: 电话
+    signature_sheet: 签名表
+    document: 文档
+    topic: 主题
+    image: 图像
+  geozones:
+    none: 所有城市
+    all: 所有范围
+  layouts:
+    application:
+      chrome: Google Chrome
+      firefox: Firefox
