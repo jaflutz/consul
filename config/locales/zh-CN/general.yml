@@ -56,3 +56,16 @@ zh-CN:
         other: "%{count} 个投票"
     form:
       comment_as_admin: 以管理员身份做评论
+      comment_as_moderator: 以审核员身份做评论
+      leave_comment: 留下您的评论
+    orders:
+      most_voted: 最多投票
+      newest: 最新优先
+      oldest: 最旧优先
+      most_commented: 最多评论
+  debates:
+    new:
+      more_info: 更多信息
+      recommendation_four: 享受此空间和其中充满的声音。它也属于您。
+      recommendation_one: 请不要用大写字母写辩论标题或整个句子。在因特网上，这被认为是在喊叫。没有人喜欢被吆喝。
+      recommendation_three: 无情的批评很受欢迎。这是一个反思的空间。但是我们建议您保持优雅和智慧。这个世界会因为这些美德成为更美好的地方。
