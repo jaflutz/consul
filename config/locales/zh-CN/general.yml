@@ -120,3 +120,29 @@ zh-CN:
     application:
       chrome: Google Chrome
       firefox: Firefox
+      ie: 我们检测到您正在用Internet Explorer浏览。为了加强体验，我们建议使用%{firefox} 或者%{chrome}。
+      ie_title: 此网站没有对您的浏览器优化
+    footer:
+      accessibility: 辅助功能选项
+      conditions: 使用条款及条件
+      consul: CONSUL应用程序
+  notifications:
+    notification:
+      notifiable_hidden: 此资源不再可用。
+  map:
+    title: "地区"
+    proposal_for_district: "为您的地区开始一个提议"
+    select_district: 经营范围
+    start_proposal: 创建提议
+  omniauth:
+    facebook:
+      sign_in: 用Facebook登录
+      sign_up: 用Facebook注册
+      name: Facebook
+    finish_signup:
+      title: "其他细节"
+      username_warning: "由于我们和社交网络互动方式发生变化，很可能您的用户名现在显示为‘已经被使用’。如果发生这种情况，请选择不同的用户名。"
+    google_oauth2:
+      sign_in: 用Google登录
+      sign_up: 用Google注册
+      name: Google
