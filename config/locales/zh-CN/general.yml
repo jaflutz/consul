@@ -38,3 +38,21 @@ zh-CN:
   application:
     close: 关闭
     menu: 菜单
+  comments:
+    comments_closed: 评论已关闭
+    verified_only: 要参与%{verify_account}
+    verify_account: 验证您的帐号
+    comment:
+      admin: 管理员
+      author: 作者
+      deleted: 此评论已被删除
+      moderator: 审核员
+      responses:
+        zero: 没有回复
+        other: "%{count} 个回复"
+      user_deleted: 已删除的用户
+      votes:
+        zero: 没有投票
+        other: "%{count} 个投票"
+    form:
+      comment_as_admin: 以管理员身份做评论
