@@ -63,6 +63,13 @@ zh-CN:
       newest: 最新优先
       oldest: 最旧优先
       most_commented: 最多评论
+    select_order: 排序依据
+    show:
+      return_to_commentable: '返回 '
+  comments_helper:
+    comment_button: 发表评论
+    comment_link: 评论
+    comments_title: 评论
   debates:
     new:
       more_info: 更多信息
@@ -185,3 +192,10 @@ zh-CN:
       proposal_responsible_name_note: "（个体或者作为集体的代表；将不会公开显示）"
       proposal_summary: 提议总结
       proposal_summary_note: "（最多200 字符）"
+      proposal_text: 提议文本
+      proposal_title: 提议标题
+      proposal_video_url: 链接到外部视频
+      proposal_video_url_note: 您可以添加到YouTube 或 Vimeo的链接
+      tag_category_label: "类别"
+      tags_instructions: "为此提议加标签。您可以从推荐的类别中选择或者自行添加"
+      tags_label: 标签
