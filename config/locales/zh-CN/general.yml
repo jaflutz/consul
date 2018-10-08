@@ -174,3 +174,14 @@ zh-CN:
       duplicated: 重复
       started: 已在进行中
       unfeasible: 不可行
+      done: 完成
+      other: 其他
+    form:
+      geozone: 经营范围
+      proposal_external_url: 链接到其他文档
+      proposal_question: 提议问题
+      proposal_question_example_html: "必须总结为一个用是或不是回答的问题"
+      proposal_responsible_name: 递交此提议的人的全名
+      proposal_responsible_name_note: "（个体或者作为集体的代表；将不会公开显示）"
+      proposal_summary: 提议总结
+      proposal_summary_note: "（最多200 字符）"
