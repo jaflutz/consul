@@ -107,7 +107,32 @@ zh-CN:
         recommendations: 推荐
       recommendations:
         without_results: 没有跟您兴趣相关的辩论
+        without_interests: 请跟随提议，以便我们可以给您推荐
+        disable: "如果您取消它们，辩论推荐将停止显示。您可以在‘我的帐户’页面再次启用它们"
+        actions:
+          success: "此账户的辩论推荐现已禁用"
+          error: "出现错误。请回到‘您的账户’页面，手动禁用辩论推荐"
+      search_form:
+        button: 搜索
+        placeholder: 搜索辩论...
+        title: 搜索
+      search_results_html:
+        other: " 包含术语<strong>'%{search_term}'</strong>"
+      select_order: 排序依据
+      start_debate: 开始辩论
+      title: 辩论
+      section_header:
+        icon_alt: 辩论图标
+        title: 辩论
+        help: 关于辩论的帮助
+      section_footer:
+        title: 关于辩论的帮助
+        description: 开始一个辩论，与他人分享您所关心主题的意见。
     new:
+      form:
+        submit_button: 开始辩论
+      info: 如果您要提出提议，这里是错误的地方，请进入%{info_link}。
+      info_link: 创建新提议
       more_info: 更多信息
       recommendation_four: 享受此空间和其中充满的声音。它也属于您。
       recommendation_one: 请不要用大写字母写辩论标题或整个句子。在因特网上，这被认为是在喊叫。没有人喜欢被吆喝。
@@ -169,6 +194,17 @@ zh-CN:
       accessibility: 辅助功能选项
       conditions: 使用条款及条件
       consul: CONSUL应用程序
+      consul_url: https://github.com/consul/consul
+      copyright: CONSUL, %{year}
+      open_source: 开源软件
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_title: 参与
+      privacy: 隐私政策
+    header:
+      administration_menu: 管理
+      administration: 管理
+      available_locales: 可用语言
+      collaborative_legislation: 立法进程
   notifications:
     notification:
       notifiable_hidden: 此资源不再可用。
