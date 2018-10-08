@@ -70,7 +70,38 @@ zh-CN:
     comment_button: 发表评论
     comment_link: 评论
     comments_title: 评论
+    reply_button: 发表答复
+    reply_link: 答复
   debates:
+    create:
+      form:
+        submit_button: 开始辩论
+    debate:
+      comments:
+        zero: 没有评论
+        other: "%{count} 个评论"
+      votes:
+        zero: 没有投票
+        other: "%{count} 个投票"
+    edit:
+      editing: 编辑辩论
+      form:
+        submit_button: 保存更改
+      show_link: 查看辩论
+    form:
+      debate_text: 最初辩论文本
+      debate_title: 辩论标题
+      tags_instructions: 为此辩论加标签。
+      tags_label: 主题
+      tags_placeholder: "输入您希望使用的标签，用逗号 (',') 分割"
+    index:
+      featured_debates: 特色
+      filter_topic:
+        other: " 主题'%{topic}'"
+      orders:
+        confidence_score: 最高评分
+        created_at: 最新
+        hot_score: 最活跃
     new:
       more_info: 更多信息
       recommendation_four: 享受此空间和其中充满的声音。它也属于您。
@@ -199,3 +230,19 @@ zh-CN:
       tag_category_label: "类别"
       tags_instructions: "为此提议加标签。您可以从推荐的类别中选择或者自行添加"
       tags_label: 标签
+    index:
+      featured_proposals: 特色
+      filter_topic:
+        other: " 主题'%{topic}'"
+      orders:
+        confidence_score: 最高评分
+        created_at: 最新
+        hot_score: 最活跃
+  welcome:
+    feed:
+      most_active:
+        debates: "最活跃的辩论"
+        proposals: "最活跃的提议"
+        processes: "开放进程"
+    cards:
+      title: 特色
