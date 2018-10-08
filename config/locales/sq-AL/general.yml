@@ -12,7 +12,7 @@ sq:
       personal: Detaje personale
       phone_number_label: Numri i telefonit
       public_activity_label: Mbaje listën e aktiviteteve të mia publike
-      public_interests_label: Mbani etiketat e elementeve që unë ndjek publikun
+      public_interests_label: Mbani etiketat e elementeve që unë ndjek publike
       public_interests_my_title_list: Etiketo elementet që ti ndjek
       public_interests_user_title_list: Etiketo elementet që përdoruesi ndjek
       save_changes_submit: Ruaj ndryshimet
@@ -216,7 +216,7 @@ sq:
       administration_menu: Admin
       administration: Administrim
       available_locales: Gjuhët në dispozicion
-      collaborative_legislation: Proceset e legjislacionit
+      collaborative_legislation: Legjislacion
       debates: Debate
       external_link_blog: Blog
       locale: 'Gjuha:'
@@ -231,7 +231,7 @@ sq:
       open: hapur
       open_gov: Qeveri e hapur
       proposals: Propozime
-      poll_questions: votim
+      poll_questions: Votim
       budgets: Buxhetet  pjesëmarrës
       spending_proposals: Propozimet e shpenzimeve
       notification_item:
@@ -474,7 +474,7 @@ sq:
       cant_answer: "Ky sondazh nuk është i disponueshëm në gjeozonën tuaj"
       section_header:
         icon_alt: Ikona e votimit
-        title: votim
+        title: Votim
         help: Ndihmë për votimin
       section_footer:
         title: Ndihmë për votimin
