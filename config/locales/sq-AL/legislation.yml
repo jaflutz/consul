@@ -52,6 +52,9 @@ sq:
         more_info: Më shumë informacion dhe kontekst
       proposals:
         empty_proposals: Nuk ka propozime
+        filters:
+          random: "\nI rastësishëm\n"
+          winners: I zgjedhur
       debate:
         empty_questions: Nuk ka pyetje.
         participate: Merrni pjesë në debat
