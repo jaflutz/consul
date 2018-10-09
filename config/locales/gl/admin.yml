@@ -394,6 +394,12 @@ gl:
           back: Volver
           title: Crear un novo proceso de lexislación colaborativa
           submit_button: Crear proceso
+        proposals:
+          select_order: Ordenar por
+          orders:
+            id: Id
+            title: Título
+            supports: Apoios
         process:
           title: Proceso
           comments: Comentarios
@@ -409,7 +415,12 @@ gl:
           proposals: Propostas
       proposals:
         index:
+          title: Título
           back: Volver
+          id: Id
+          supports: Apoios
+          select: Seleccionadas
+          selected: Seleccionadas
         form:
           custom_categories: Categorias
           custom_categories_description: Categorías que o usuario pode seleccionar o crear a proposta.
