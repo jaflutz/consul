@@ -76,6 +76,9 @@ gl:
       legislation/process:
         one: "Proceso"
         other: "Procesos"
+      legislation/proposal:
+        one: "Proposta"
+        other: "Propostas"
       legislation/draft_versions:
         one: "Versión borrador"
         other: "Versións borrador"
