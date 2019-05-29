@@ -322,6 +322,7 @@ en:
         subject: Subject
         from: From
         body: Email content
+        footer: Footer content
       admin_notification:
         segment_recipient: Recipients
         title: Title

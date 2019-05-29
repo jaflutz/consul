@@ -5,6 +5,7 @@ class Newsletter < ApplicationRecord
   validates :segment_recipient, presence: true
   validates :from, presence: true
   validates :body, presence: true
+  validates :footer, presence: true
   validate :validate_segment_recipient
 
   validates_format_of :from, :with => /@/
@@ -51,6 +52,10 @@ class Newsletter < ApplicationRecord
 
   def list_of_recipient_emails_in_batches
     list_of_recipient_emails.in_groups_of(batch_size, false)
+  end
+
+  def footer
+    read_attribute(:footer) || I18n.t("admin.newsletters.new.footer_content")
   end
 
   private
