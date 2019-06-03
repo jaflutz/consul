@@ -7,8 +7,23 @@
 </head>
 <body style="background: #fff; font-family:font-family: 'Open Sans','Helvetica Neue',arial,sans-serif !important; margin: 0 10px; padding: 0; text-align: left;">
 
-  <%= render "layouts/mailer_header" %>
-
+  <table cellpadding="0" cellspacing="0" border="0" style="background: #fff; margin: 0 auto; max-width: 700px; width:100%;">
+    <tr>
+      <td>
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+          <tr>
+            <td style="border-bottom: 1px solid #dadfe1; padding: 20px 0;">
+              <a href="#" target="_blank">
+                <%= image_tag(image_path_for("logo_email.png"),
+                              style: "border: 0;display: block;width: 100%;max-width: 400px",
+                              alt: setting["org_name"]) %>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
   <table cellpadding="0" cellspacing="0" border="0" style="background: #fff; margin: 0 auto; max-width: 700px; width:100%;">
     <tbody>
       <tr>

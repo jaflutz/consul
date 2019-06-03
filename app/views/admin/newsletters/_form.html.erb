@@ -6,6 +6,7 @@
   <%= f.text_field :subject %>
   <%= f.label :from, t("admin.newsletters.new.from") %>
   <%= f.text_field :from, label: false %>
+  <%= render "images/nested_image", imageable: @newsletter, f: f %>
   <%= f.cktext_area :body, ckeditor: { language: I18n.locale } %>
   <%= f.cktext_area :footer, ckeditor: { language: I18n.locale } %>
 
