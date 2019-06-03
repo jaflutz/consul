@@ -127,7 +127,9 @@ class Mailer < ApplicationMailer
     @newsletter = newsletter
     @email_to = recipient_email
 
-    mail(to: @email_to, from: @newsletter.from, subject: @newsletter.subject)
+    mail(to: @email_to, from: @newsletter.from, subject: @newsletter.subject) do |format|
+      format.html { render layout: 'newsletter_layout' }
+    end
   end
 
   private
