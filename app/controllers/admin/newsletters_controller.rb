@@ -1,4 +1,5 @@
 class Admin::NewslettersController < Admin::BaseController
+  include ImageAttributes
 
   def index
     @newsletters = Newsletter.all
@@ -61,6 +62,6 @@ class Admin::NewslettersController < Admin::BaseController
   private
 
     def newsletter_params
-      params.require(:newsletter).permit(:subject, :segment_recipient, :from, :body, :footer)
+      params.require(:newsletter).permit(:subject, :segment_recipient, :from, :body, :footer, image_attributes: image_attributes)
     end
 end
