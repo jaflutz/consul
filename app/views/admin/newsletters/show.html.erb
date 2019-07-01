@@ -42,7 +42,21 @@
 </div>
 
 <div class="newsletter-body-content">
-  <%= render file: "app/views/layouts/_mailer_header.html.erb" %>
+  <table cellpadding="0" cellspacing="0" border="0" style="background: #fff; margin: 0 auto; max-width: 700px; width:100%;">
+    <tr>
+      <td>
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+          <tr>
+            <td style="border-bottom: 1px solid #dadfe1; padding: 20px 0;">
+              <a href="#" target="_blank">
+                <%= render_image(@newsletter.image, :large, true) if @newsletter.image.present? %>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
   <table cellpadding="0" cellspacing="0" border="0" style="background: #fff; margin: 0 auto; max-width: 700px; width:100%;">
     <tbody>
