@@ -12,6 +12,7 @@ en:
       admin_title: "Image"
       admin_alt_text: "Alternative text for the image"
       newsletter_title: "Header image"
+      newsletter_help: "Default header image"
     actions:
       destroy:
         notice: Image was deleted successfully.

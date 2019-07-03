@@ -1,7 +1,7 @@
 <div class="images">
     <div>
       <%= f.label :image, t("images.form.newsletter_title") %>
-      <p class="help-text"><%= imageables_note(imageable) %></p>
+      <p class="help-text"><%= t("images.form.newsletter_help") %></p>
 
       <%= link_to_add_association t("images.form.add_new_image"), f, :image,
                             force_non_association_create: true,
