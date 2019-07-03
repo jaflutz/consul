@@ -11,6 +11,7 @@ en:
       title_placeholder: Add a descriptive title for the image
       admin_title: "Image"
       admin_alt_text: "Alternative text for the image"
+      newsletter_title: "Header image"
     actions:
       destroy:
         notice: Image was deleted successfully.
