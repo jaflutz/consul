@@ -15,7 +15,7 @@
             <td style="border-bottom: 1px solid #dadfe1; padding: 20px 0;">
               <a href="#" target="_blank">
                 <% if @newsletter.image.present? %>
-                  <%= render_image(@newsletter.image, :large, true) %>
+                  <%= render_image(@newsletter.image, :large, false) %>
                 <% else %>
                   <%= image_tag(image_path_for("logo_email.png"),
                                 style: "border: 0;display: block;width: 100%;max-width: 400px",
