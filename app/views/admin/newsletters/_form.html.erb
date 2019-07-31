@@ -8,6 +8,7 @@
   <%= f.text_field :from, label: false %>
   <%= render "images/newsletter_image", imageable: @newsletter, f: f %>
   <%= f.cktext_area :body, ckeditor: { language: I18n.locale } %>
+
   <div class="margin-top">
     <%= f.cktext_area :footer, ckeditor: { language: I18n.locale } %>
   </div>
