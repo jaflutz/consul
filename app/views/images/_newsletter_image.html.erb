@@ -3,6 +3,14 @@
       <%= f.label :image, t("images.form.newsletter_title") %>
       <p class="help-text"><%= t("images.form.newsletter_help") %></p>
 
+      <% if f.object.image %>
+        <%= render_image(f.object.image, :thumb, false) if f.object.image %>
+      <% else %>
+        <%= image_tag(image_path_for("logo_email.png"),
+                      style: "border: 0;display: block;width: 100%;max-width: 400px",
+                      alt: setting["org_name"]) %>
+      <% end %>
+
       <%= link_to_add_association t("images.form.add_new_image"), f, :image,
                             force_non_association_create: true,
                             partial: "images/image_fields",
@@ -16,7 +24,6 @@
                               association_insertion_method: "append"
                             } %>
 
-      <%= render_image(f.object.image, :thumb, false) if f.object.image %>
 
       <div id="nested-image">
         <%= f.fields_for :image do |image_builder| %>
