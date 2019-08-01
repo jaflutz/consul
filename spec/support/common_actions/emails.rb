@@ -21,5 +21,6 @@ module Emails
     select (options[:segment_recipient] || "All users"), from: "newsletter_segment_recipient"
     fill_in "newsletter_from", with: (options[:from] || "no-reply@consul.dev")
     fill_in "newsletter_body", with: (options[:body] || "This is a different body")
+    fill_in "newsletter_footer", with: (options[:footer] || "This is a different footer")
   end
 end

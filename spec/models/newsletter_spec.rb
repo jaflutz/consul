@@ -32,6 +32,13 @@ describe Newsletter do
     expect(newsletter).not_to be_valid
   end
 
+  it "always have a footer" do
+    newsletter.footer = "Footer"
+    expect(newsletter.footer).to eq("Footer")
+    newsletter.footer = nil
+    expect(newsletter.footer).to eq(I18n.t("admin.newsletters.new.footer_content"))
+  end
+
   it "validates from attribute email format" do
     newsletter.from = "this_is_not_an_email"
     expect(newsletter).not_to be_valid

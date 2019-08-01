@@ -13,7 +13,8 @@ feature "Admin newsletter emails" do
       newsletter = create(:newsletter, subject: "This is a subject",
                                        segment_recipient: "all_users",
                                        from: "no-reply@consul.dev",
-                                       body: "This is a body")
+                                       body: "This is a body",
+                                       footer: "This is a footer")
 
       visit admin_newsletter_path(newsletter)
 
@@ -21,6 +22,7 @@ feature "Admin newsletter emails" do
       expect(page).to have_content I18n.t("admin.segment_recipient.#{newsletter.segment_recipient}")
       expect(page).to have_content "no-reply@consul.dev"
       expect(page).to have_content "This is a body"
+      expect(page).to have_content "This is a footer"
     end
 
     scenario "Invalid newsletter" do
@@ -66,7 +68,8 @@ feature "Admin newsletter emails" do
 
     fill_in_newsletter_form(subject: "This is a subject",
                             segment_recipient: "Proposal authors",
-                            body: "This is a body" )
+                            body: "This is a body",
+                            footer: "This is a footer")
     click_button "Create Newsletter"
 
     expect(page).to have_content "Newsletter created successfully"
@@ -74,6 +77,7 @@ feature "Admin newsletter emails" do
     expect(page).to have_content "Proposal authors"
     expect(page).to have_content "no-reply@consul.dev"
     expect(page).to have_content "This is a body"
+    expect(page).to have_content "This is a footer"
   end
 
   scenario "Update" do
@@ -86,7 +90,8 @@ feature "Admin newsletter emails" do
 
     fill_in_newsletter_form(subject: "This is a subject",
                             segment_recipient: "Investment authors in the current budget",
-                            body: "This is a body" )
+                            body: "This is a body",
+                            footer: "This is a footer")
     click_button "Update Newsletter"
 
     expect(page).to have_content "Newsletter updated successfully"
@@ -94,6 +99,7 @@ feature "Admin newsletter emails" do
     expect(page).to have_content "Investment authors in the current budget"
     expect(page).to have_content "no-reply@consul.dev"
     expect(page).to have_content "This is a body"
+    expect(page).to have_content "This is a footer"
   end
 
   scenario "Destroy" do
